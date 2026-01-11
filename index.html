@@ -32,37 +32,160 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-decoration">
-            <span class="star star-1">✦</span>
-            <span class="star star-2">✦</span>
-            <span class="star star-3">✧</span>
-            <span class="star star-4">✦</span>
-            <span class="star star-5">✧</span>
-        </div>
-        <div class="hero-content">
-            <p class="hero-subtitle">Full-Stack Developer | Software Engineer</p>
-            <h1 class="hero-title">
-                <span class="title-main">DELFI</span><span class="title-accent">A</span>
-            </h1>
-            <p class="hero-location">Chennai, Tamil Nadu, India</p>
-            <p class="hero-tagline">Accomplished competitive programmer | 12+ Hackathon wins | AI & ML Enthusiast</p>
-            <div class="hero-social">
-                <a href="https://www.linkedin.com/in/delfi-a-734157336/" target="_blank" class="social-link" title="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="mailto:delfi.cse24@gmail.com" class="social-link" title="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                <a href="https://github.com/Delfi2007" target="_blank" class="social-link" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
+    <!-- Hero Carousel Section -->
+    <section id="home" class="hero-carousel">
+        <div class="carousel-container">
+            <!-- Cards -->
+            <div class="carousel-card active" data-index="0">
+                <div class="card-background" style="background-image: url('carosal/sih.png')"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <span class="location-tag">Smart India Hackathon 2025</span>
+                    <h1 class="destination-name">🏆 WE WON SIH 2025!</h1>
+                    <p class="destination-description">After months of tremendous effort, sleepless nights, pressure handling, teamwork, and unbreakable cooperation, our team AXEFORTUNE has finally achieved what we dreamed of — Winning Smart India Hackathon 2025! 🚀🔥</p>
+                </div>
             </div>
-        </div>
-        <div class="scroll-indicator">
-            <span>Scroll to explore</span>
-            <div class="scroll-line"></div>
+
+            <div class="carousel-card" data-index="1">
+                <div class="card-background" style="background-image: url('carosal/international.png')"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <span class="location-tag">International Hackathon</span>
+                    <h1 class="destination-name">International Winner</h1>
+                    <p class="destination-description">Won international hackathon from almost 9000 participants. A proud moment representing India on the global stage! 🌍</p>
+                </div>
+            </div>
+
+            <div class="carousel-card" data-index="2">
+                <div class="card-background" style="background-image: url('carosal/tamilnadu police haathon.png')"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <span class="location-tag">TN Police Hackathon 2024</span>
+                    <h1 class="destination-name">Top 12 Finalist</h1>
+                    <p class="destination-description">Incredible opportunity to participate in the TN Police Hackathon 2024, organized by the Cyber Crime Wing, and won top 12! 🚔</p>
+                </div>
+            </div>
+
+            <div class="carousel-card" data-index="3">
+                <div class="card-background" style="background-image: url('carosal/datakon-srm.png')"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <span class="location-tag">Datakon'24 Innovation Nexus</span>
+                    <h1 class="destination-name">Third Prize Winner</h1>
+                    <p class="destination-description">Secured the Third prize at the prestigious Datakon'24 Innovation Nexus event, organized by SRM Institute of Science and Technology (SRMIST) 🥉</p>
+                </div>
+            </div>
+
+            <div class="carousel-card" data-index="4">
+                <div class="card-background" style="background-image: url('carosal/dpiistatup.png')"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <span class="location-tag">DPII Connect by StartupTN</span>
+                    <h1 class="destination-name">Top 20+ Teams</h1>
+                    <p class="destination-description">DPII Connect event by StartupTN! Among the Top 20+ teams, and we were issued the StartupTN Smartcard 💳</p>
+                </div>
+            </div>
+
+            <div class="carousel-card" data-index="5">
+                <div class="card-background" style="background-image: url('carosal/globalstartupsummit.png')"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <span class="location-tag">TNGSS 2025</span>
+                    <h1 class="destination-name">Delegate at Global Summit</h1>
+                    <p class="destination-description">Honoured to have attended the Tamil Nadu Global Startup Summit 2025 (TNGSS) as a Delegate, representing Powerenv Technologies, organised by StartupTN 🌟</p>
+                </div>
+            </div>
+
+            <div class="carousel-card" data-index="6">
+                <div class="card-background" style="background-image: url('carosal/ideothon.png')"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <span class="location-tag">Ideathon Competition</span>
+                    <h1 class="destination-name">2nd Prize Winner</h1>
+                    <p class="destination-description">2nd Prize for creative and practical approach to problem-solving! Innovation meets execution 🥈</p>
+                </div>
+            </div>
+
+            <!-- Thumbnail Grid -->
+            <div class="thumbnail-grid">
+                <div class="thumbnail active" data-index="0">
+                    <img src="carosal/sih.png" alt="SIH 2025">
+                    <div class="thumbnail-overlay">
+                        <span class="thumbnail-name">SIH 2025</span>
+                    </div>
+                </div>
+                <div class="thumbnail" data-index="1">
+                    <img src="carosal/international.png" alt="International">
+                    <div class="thumbnail-overlay">
+                        <span class="thumbnail-name">International</span>
+                    </div>
+                </div>
+                <div class="thumbnail" data-index="2">
+                    <img src="carosal/tamilnadu police haathon.png" alt="TN Police">
+                    <div class="thumbnail-overlay">
+                        <span class="thumbnail-name">TN Police</span>
+                    </div>
+                </div>
+                <div class="thumbnail" data-index="3">
+                    <img src="carosal/datakon-srm.png" alt="Datakon">
+                    <div class="thumbnail-overlay">
+                        <span class="thumbnail-name">Datakon</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="nav-arrows">
+                <button class="nav-arrow prev-btn" aria-label="Previous">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+                <button class="nav-arrow next-btn" aria-label="Next">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Play/Pause Button -->
+            <button class="play-pause-btn" aria-label="Pause">
+                <svg class="pause-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M6 4h4v16H6zM14 4h4v16h-4z" />
+                </svg>
+                <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+                    <path d="M8 5v14l11-7z" />
+                </svg>
+            </button>
+
+            <!-- Progress Dots -->
+            <div class="progress-container">
+                <div class="progress-dot active" data-index="0"></div>
+                <div class="progress-dot" data-index="1"></div>
+                <div class="progress-dot" data-index="2"></div>
+                <div class="progress-dot" data-index="3"></div>
+                <div class="progress-dot" data-index="4"></div>
+                <div class="progress-dot" data-index="5"></div>
+                <div class="progress-dot" data-index="6"></div>
+            </div>
+
+            <!-- Card Counter -->
+            <div class="card-counter">
+                <span class="current-count">1</span> / <span class="total-count">7</span>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-bar-container">
+                <div class="progress-bar"></div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="carousel-scroll-indicator">
+                <span>Scroll to explore</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M19 12l-7 7-7-7" />
+                </svg>
+            </div>
         </div>
     </section>
 
